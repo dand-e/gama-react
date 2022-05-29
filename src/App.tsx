@@ -1,9 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+import Router from './routes';
 
-import FunctionalComponents from './components/FunctionComponents';
+/*import FunctionalComponents from './components/FunctionComponents';
 import ClassComponents from './components/ClassComponents';
+import PartOne from './Hooks';
 
 const App: React.FC = ():any => {
   function hello(){
@@ -16,6 +18,7 @@ const App: React.FC = ():any => {
         <img src={logo} className="App-logo" alt="logo" />
         <FunctionalComponents />
         <ClassComponents />
+        <PartOne />
         <br/>
         <button onClick={hello}>
           Clica nimim
@@ -23,6 +26,10 @@ const App: React.FC = ():any => {
       </header>
     </div>
   );
+}*/
+
+const App: React.FC = ():any => {
+  return <Router />
 }
 
 export default App;
